@@ -1,6 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  min-height: 100dvh;
+}
+
+.header {
+  background: #4ea0ff url("../img/pattern.png");
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.header .title {
+  width: fit-content;
+  color: #ffffff;
+  font: 500 2rem "Franklin Gothic Medium", sans-serif;
+  text-shadow: 1px 1px 4px #000;
+  position: relative;
+}
+
+.header .title h4 {
+  position: absolute;
+  left: 2.3rem;
+  top: -0.8rem;
+}
